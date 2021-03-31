@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="../css/universal.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/portada.css">
+    
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+
+     <link rel="stylesheet" href="../css/formsmswpp.CSS">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="slogan"> 
+        <h1>Industrias</h1>
+        <h1>Metalurgicas</h1>
+    </div>
+    <div class="navbar">
+        <div class="clogo">
+            <a href="../index.html"><img src="../img/logo.png" alt=""></a>
+        </div>
+       
+       
+        <button class="menu-toggler" onclick="mosmenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <div class="navbar-menu" id="menuotro"> 
+    
+            <ul class="principallist">
+            
+                <li class="cOpcion">    
+                    <div class="titulo">
+                        <a href="../index.html" class="titular"> Inicio </a></h1>
+                        <i class=" btnmo fas fa-chevron-down"  onclick="mos(0)"></i>
+                    </div>
+                    <div class="subtitulos">
+                        <ul>
+                            <li><a href="../index.html#portada">Portada</a></li>
+                            <li><a href="../index.html#nosotros">Nosotros</a></li>
+                            <li><a href="../index.html#valores">Valores</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="cOpcion">    
+                    <div class="titulo">
+                        <a href="galeria.html" class="titular"> Galeria </a></h1>
+                        <i class=" btnmo fas fa-chevron-down"  onclick="mos(1)"></i>
+                    </div>
+                    <div class="subtitulos">
+                        <ul>
+                            <li><a href="#acero">Acero inoxidable</a></li>
+                            <li><a href="#portones">Portones</a></li>
+                            <li><a href="#tinglados">Tinglados</a></li>
+                            
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="cOpcion">    
+                    <div class="titulo">
+                        <a href="catalogo.html" class="titular"> Catalogo </a></h1>
+                        <i class=" btnmo fas fa-chevron-down"  onclick="mos(2)"></i>
+                    </div>
+                    <div class="subtitulos">
+                        <ul>
+                            <li><a href="catalogo.html#acero">Acero</a></li>
+                            <li><a href="catalogo.html#portones">Portones</a></li>
+                            
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="cOpcion">    
+                    <div class="titulo">
+                        <a href="contacto.html" class="titular"> Contactanos </a></h1>
+                        <i class=" btnmo fas fa-chevron-down"  onclick="mos(3)"></i>
+                    </div>
+                    <div class="subtitulos">
+                        <ul>
+                            <li><a href="contacto.html#empresa">Contacto</a></li>
+                            <li><a href="contacto.html#ubicacion">Ubicacion</a></li>
+                            
+                        </ul>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div style="width: 100%; height: 100px;display: block;"></div>
+    <div class="portada">           
+        <h2>NUESTRO TRABAJO</h2>
+    </div>   
+    <div class="lineaa"></div>
+
+
+    <div class=" cd1"  id="formsmswpp">
+        <h2 class="titul">Nuevo Mensaje</h2>
+        <label for="">Nombre</label><br>
+        <input type="text"  placeholder="Nombre:" class="inputnombre" id="idnombre"><br>
+        <label for="" >Mensaje</label><br>
+        <textarea placeholder="Mensaje:" class="inputmensaje"  id="idmensaje"></textarea><br>
+        <button onclick="mostrard()" style="cursor: pointer;">Enviar mensaje</button>
+    </div>
+    <button id="smswpp" onclick="funsmswpp()">  <i class="fab fa-whatsapp" ></i>  </button>
+    <script  src="../js/formsmswpp.js"></script>
+
+
+
+
+
+    <footer class="footer2">    
+
+        <div class="cajalogo">
+            <img src="../img/logo.png" alt="">
+        </div>
+    
+         <div class="cajadatos">
+            <h4> &copy; Industrias Metalurgicas  </h4> 
+            <p>Zn Miraflores , Av. Villazon #1177 </p> 
+            <p>Telf-Whatsapp : 65555895</p>
+            <p>La Paz - Bolivia</p>
+        </div>
+    
+        <div class="sm">
+            <!--
+                <a href="https://www.facebook.com/Darigamo2000siempre/" class="fab fa-facebook" style="color: blue;">    </a>
+            -->            
+                <a href="https://api.whatsapp.com/send?phone=59165555895" class="fab fa-whatsapp" style="color: darkgreen; text-decoration: none;"></a>
+                <a href="https://www.google.com/maps/place/Monoblock+UMSA/@-16.5048046,-68.1321531,17z/data=!3m1!4b1!4m5!3m4!1s0x915f2064df652367:0xddb4c11ab8c8d666!8m2!3d-16.5048046!4d-68.1299644"
+                 class="fas fa-map-marker-alt" style="color: red; background:none;text-decoration: none; ">  </a>
+            </div>
+    </footer>
+    
+    <script src="../js/menu.js"></script>
+
+
+
+
+
+
+
+
+   
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ******************* ESTILOS CSS**********************************************-->
+<link rel="stylesheet" href="css/universal.css">    
+<link rel="stylesheet" href="css/menu.css"> 
+    <link rel="stylesheet" href="css/slider.css"> 
+    <link rel="stylesheet" href="css/footer.css">  
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/formsmswpp.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+<!-- ******************** IMPORTAR JS ONLINE ***************************************-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- ********************** IMPORTAR TIPOGRAFIAS ONLINE     ************************-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap" rel="stylesheet">
+    
+
+  
+    <title>Principal</title>
+</head>
+<body oncontextmenu="return false">
+   
+
+    <!--  ESTRUCTURA DEL MENU NAVBAR Y MENU TOGGLER *************************************************-->
+    <div class="slogan"> 
+        <h1>Industrias</h1>
+        <h1>Metalurgicas</h1>
+    </div>
+    <div class="navbar">
+        <div class="clogo">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+       
+       
+        <button class="menu-toggler" onclick="mosmenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <div class="navbar-menu" id="menuotro"> 
+    
+            <ul class="principallist">
+            
+                <li class="cOpcion">    
+                    <div class="titulo">
+                        <a href="index.html" class="titular"> Inicio </a></h1>
+                        <i class=" btnmo fas fa-chevron-down"  onclick="mos(0)"></i>
+                    </div>
+                    <div class="subtitulos">
+                        <ul>
+                            <li><a href="#portada">Portada</a></li>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#valores">Valores</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="cOpcion">    
+                    <div class="titulo">
+                        <a href="componentes/galeria.html" class="titular"> Galeria </a></h1>
+                        <i class=" btnmo fas fa-chevron-down"  onclick="mos(1)"></i>
+                    </div>
+                    <div class="subtitulos">
+                        <ul>
+                            <li><a href="componentes/galeria.html#acero">Acero inoxidable</a></li>
+                            <li><a href="componentes/galeria.html#portones">Portones</a></li>
+                            <li><a href="componentes/galeria.html#tinglados">Tinglados</a></li>
+                            
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="cOpcion">    
+                    <div class="titulo">
+                        <a href="componentes/catalogo.html" class="titular"> Catalogo </a></h1>
+                        <i class=" btnmo fas fa-chevron-down"  onclick="mos(2)"></i>
+                    </div>
+                    <div class="subtitulos">
+                        <ul>
+                            <li><a href="componentes/catalogo.html#acero">Acero</a></li>
+                            <li><a href="componentes/catalogo.html#portones">Portones</a></li>
+                            
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="cOpcion">    
+                    <div class="titulo">
+                        <a href="componentes/contacto.html" class="titular"> Contactanos </a></h1>
+                        <i class=" btnmo fas fa-chevron-down"  onclick="mos(3)"></i>
+                    </div>
+                    <div class="subtitulos">
+                        <ul>
+                            <li><a href="componentes/contacto.html#empresa">Contacto</a></li>
+                            <li><a href="componentes/contacto.html#ubicacion">Ubicacion</a></li>
+                            
+                        </ul>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div style="width: 100%; height: 100px;display: block;"></div>
+
+<!--************** CARRUCEL               *********************************************************-->
+    <div id="c-slider" >
+        <div id="slider">
+
+            <section>
+                <img src="img/EMBLEMA original.jfif"  onmouseover="pausar()" onmouseout="continuar()">
+            </section>
+            <section>
+                <img src="img/inipor1.jpeg"  onmouseover="pausar()" onmouseout="continuar()">
+                
+            </section>
+            <section>
+                <img src="img/inipor2.jpeg"  onmouseover="pausar()" onmouseout="continuar()">
+            </section>
+            <section>
+                <img src="img/galfon1133 - copia.jpg"  onmouseover="pausar()" onmouseout="continuar()">
+            </section>
+        </div> 
+        <div id="btn-prev" onclick="moverI()" onmouseover="pausar()" onmouseout="continuar()">&#60;</div>
+        <div id="btn-next" onclick="moverD()" onmouseover="pausar()" onmouseout="continuar()">&#62;</div>
+    </div>
+    <!--*********************************CONTENIDO DE ESTA PAGINA************************************-->
+
+    <div >
+        <div class="inicio1" id="portada">
+            <div class="separador"></div>
+            <div class="cajaizq desvanecedora1">   
+                <img src="img/acero/a1.jpeg" alt=" IMAGEN 1">
+            </div>
+            <div class="cajacen"> 
+                <h1>Lo necesitas? <br>  Lo construimos!</h1><br>
+                <p><a href="componentes/contacto.html#empresa"  class="otro9"> Contactanos</a></p>
+            </div>
+            <div class="cajader desvanecedora1">
+                <img src="img/portones/pp6.jpeg" alt=" IMAGEN 2">
+            </div>
+            <div class="cajadow desvanecedora2">   
+                <img src="img/tinglados/t1.jpeg" alt=" IMAGEN 3">
+            </div>
+        </div>
+
+        <div class="inicio3" id="nosotros">
+            <div class="separador"></div>
+     
+            <div class="fotoacerca">
+                <img src="img/logo.png" alt="">
+            </div>
+
+            <div class="textoacerca">
+                <div class="ctextoacerca">
+
+                    <h3> Nosotros</h3><br>
+                <p> Somos una empresa boliviana con muchos años de experiencia en el rubro metal-mecanico. </p>  <br>
+                <p> Especialistas en :</p>  <br>
+
+                <p><strong> Proyectos integrales</strong>
+                    <ul>
+                        <li>Tinglados.</li>
+                        <li>Solarios.</li>
+                        <li>Techos.</li>
+                    </ul> 
+                <p>  <strong>Construcciones en acero inoxidable</strong>
+                    <ul>
+                        <li>Barandas.</li>
+                        <li>Parrillas.</li>
+                        <li>Equipamiento para hospitales.</li>
+                        <li>Cocinas industriales.</li>
+                    </ul>
+                <p>  <strong> Automatizacion de portones</strong>
+                    <ul>
+                        <li>Batiente.</li>
+                        <li>Basculante.</li>
+                        <li>Cortinas.</li>
+                    </ul> 
+                </div>
+            </div>
+        </div>     
+        
+        <div class="inicio2 " id="valores">
+            <div class="separador"></div>
+            <div class="cajadow2">   
+                <div class="elex">
+                    <i class="fas fa-lightbulb"></i><br>
+                    <label >Eficiencia </label>
+                </div>
+            </div>
+            <div class="cajaizq2"> 
+                <div class="elex">
+                    <i class="far fa-handshake"></i><br>
+                    <label > Transparencia </label>
+                </div>
+            </div>
+            <div class="cajader2">
+                <div class="elex">
+                    <i class="fas fa-edit"></i><br>
+                    <label > Responsabilidad</label>
+                </div>
+            </div>
+            <div class="cajaizq3">   
+                <div class="elex">
+                    <i class="fas fa-comments"></i><br>
+                    <label > Atencion<br> Personalizada</label>
+                </div>
+            </div>
+            <div class="cajader3">
+                <div class="elex">
+                    <i class="fas fa-gem"></i><br>
+                    <label>  Trabajo <br> Garantizado</label>
+                </div>
+            </div>
+        </div>
+
+        
+    </div> 
+    
+<!-- *********** DISEÑO FOOTER ******************************************************************-->
+    <footer class="footer2">
+
+        <div class="cajalogo">
+            <img src="img/logo.png" alt="">
+        </div>
+
+         <div class="cajadatos">
+            <h4> &copy; Industrias Metalurgicas  </h4> 
+            <p>Zn. El Alto,   Av. Juan Pablo II #1177 </p> 
+            <p>Telf-Whatsapp : 65555895 </p>
+            <p>La Paz - Bolivia</p>
+        </div>
+
+        <div class="sm">
+            <button  onclick="funsmswpp()"> <i class="fab fa-whatsapp" > </i></button>
+            <a href="https://goo.gl/maps/mUUBaYjkT8GwpN577"     
+            class="fas fa-map-marker-alt" 
+            style="color: red; background:none;text-decoration: none; "> 
+            </a>
+        </div>
+    </footer>
+
+    <div class=" cd1"  id="formsmswpp">
+        <h2 class="titul">Nuevo Mensaje</h2>
+        <label for="">Nombre</label><br>
+        <input type="text"  placeholder="Nombre:" class="inputnombre" id="idnombre"><br>
+        <label for="" >Mensaje</label><br>
+        <textarea placeholder="Mensaje:" class="inputmensaje"  id="idmensaje"></textarea><br>
+        <button onclick="mostrard()" style="cursor: pointer;">Enviar mensaje</button>
+    </div>
+    <button id="smswpp" onclick="funsmswpp()">  <i class="fab fa-whatsapp" ></i>  </button>
+
+    <script src="js/formsmswpp.js"></script>
+    <script src="js/mandarsms.js"></script>
+
+    <script src="js/sliderjs.js"></script>
+    <script src="js/menu.js"></script>
+
+</body>
+</html>
