@@ -18,8 +18,8 @@ h1
 }
 .lineaa
 {
-    background: #550b51;
-    height: 5px;
+    background: #3818c7;
+    height: 8px;
     width: 100%;
     display: block;
 
@@ -144,32 +144,66 @@ h1
 }
 
 .modelo
-{width: 70%;
+{width: 50%;
     border: solid orange 1px;
 }
 .precio
 {
-width: 30%;
+width: 50%;
 border: solid orange 1px;
 }
 .cgaleria
 {
-    background: #fec5bb;
+    
+ 
+    
+   
+   
     margin: 0;
     padding: 0;
     text-align: center;
+}
+.parte
+{
+    background: url("../img/FONDO55.jpg");
+    
 }
 .titulocat
 {
     margin: 40px auto;
     padding: 10px 0;
-
+    text-align: center;
     font-size: 25px;
-    font-weight: 1000  ;
-    background-color: rgba(255,255,255,0.5);
+    font-weight: 1000;
+    
 }
 
 
+/*******************************************/
+.titulocat
+{
+    background-color: rgba(109, 140, 223, 0.8);
+    color: white;
+
+}
+
+.portada
+{  
+    background: url(../img/fla12.png);   
+}
+
+.portada h2
+{
+   
+   
+    background-color: rgba(109, 140, 223, 0.8);
+    
+
+  
+}
+
+
+/*******************************************************************************************/
 @media screen and (max-width:600px)
 {
     .ligab img

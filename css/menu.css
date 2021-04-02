@@ -8,15 +8,17 @@
     height: 100px;
     display: flex;
     color: white;justify-content: space-around;
-    background-color:black;       
+    background-color: black;       
     z-index: 20;    
 }
 .clogo
 {
+    padding-top: 20px;
     background-color: transparent;
     width: 100px;   
-    min-width: 100px;    
-    min-height: 80px; 
+    min-width: 150px;    
+    min-height: 60px;
+    max-height: 60px; 
     height: 80px;
     margin: 10px 0px;
 }
@@ -41,8 +43,8 @@
 }
 .navbar-menu a:hover , .navbar-menu i:hover
 {   
-     color: black;
-     background-color: rgba(255, 10, 10, 0.7);
+  
+     background-color: rgba(93, 161, 238, 0.7);
 }
 .principallist
 {
@@ -82,17 +84,21 @@
 
 .subtitulos
 {
-    margin-top: 8px;
+    
     background-color: black; 
     display: none;
     text-align: center;
     margin: 0;
-    padding:0 ;  
+    padding:0;  
+    background-color: black;
+    margin-top: 25px;
 }
 .subtitulos li
 {
     margin: 0;
     padding:5px 0px ;
+   
+  
 }
 .subtitulos a 
 {
@@ -132,6 +138,10 @@
     {
         font-size: 20px;        
     }
+    .subtitulos
+    {
+        margin-top: 34px;
+    }
 }
 @media screen and (max-width: 600px) 
 {
@@ -141,7 +151,7 @@
         width: 165px;
         margin: auto;
         position: fixed;
-        left: 100px;
+        left: 130px;
         right: 50px;
         top: 25px ;
         z-index: 31;
@@ -165,12 +175,14 @@
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
+        border: rgb(40, 40, 221) solid 2px;
     }
     
     .navbar-menu
     {
         display: none;
         width: 50%;
+        
     }
     .menu-toggler
     {
@@ -190,14 +202,14 @@
         display: block;
         min-width: 200px;    
         float: right;
-        border: rgba(94, 94, 184, 0.5)  solid 4px;
-        background-color: black;
+        border: rgb(40, 40, 221) solid 2px;
+        background-color:black;
         height: auto;
     }
     .cOpcion
     {
         width: 100%;
-        border-bottom: rgba(94, 94, 184, 0.5) solid 4px;
+        border-bottom: rgb(40, 40, 221)solid 2px;
     }
     .titulo
     {
@@ -210,7 +222,9 @@
         text-align: left;
         border-radius: 0px;
         padding: 15px 0px;
-        padding-left:15px ;
-        border-top:rgba(94, 94, 184, 0.5) solid 4px ;
+        padding-left:25px ;
+        border-top:rgb(40, 40, 221) solid 2px ;
+        background-color:black;
+        margin-top: 0px;
     }
 }

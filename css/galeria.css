@@ -2,35 +2,29 @@
 {
     background-color: black
 }
+/*
+********************************************************/
 .portada
 {
-    background: url(../img/trabajos4.jpg);
-    background-position: 0vw;
-    background-repeat: no-repeat;
-    background-size: cover;   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    background: url(../img/trabajos5.jpg);
+   
 }
+.portada h2
+{
+
+  
+    background-color: rgba(0,0,255,0.4);
+  
+}
+/****************************
+*/
 .lineaa
 {
-    background: #550b51;
+    background: #3818c7;
     height: 5px;
     width: 100%;
     display: block;
 }
-.portada h2
-{
-    display: block;
-    color: white;
-    font-size: 55px;
-    padding: 10px 25px;
-    font-weight: bolder;
-    background-color: rgba(0,0,255,0.4);
-    border-radius: 10px;
-}
-
 /*************************/
 html
 {
@@ -99,7 +93,8 @@ html
 {
     width: 30%;
     height: 65%;
-    border: solid 5px red;
+    border:    rgb(49, 49, 147) 5px;
+    border-style: solid ;
     border-radius: 25px;
     margin: 20px 0.6%;
     text-align: center;
@@ -135,7 +130,7 @@ html
 {
     width: 40px;
     height: 40px;
-    background-color:red;
+    background-color: rgba(255, 255, 255, 0.7);
     position: absolute;
     top: 50%;
     transform: translateX(-50%);
@@ -159,9 +154,11 @@ html
 }
 #btn-preva:hover,#btn-nexta:hover
 {
-    background-color: black;
+  
     color: white;
-    border: solid  white 3px;
+    background-color: rgb(96, 96, 194);
+   
+    outline: none;
 }
 
 

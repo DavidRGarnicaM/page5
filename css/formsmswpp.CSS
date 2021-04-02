@@ -91,3 +91,8 @@ cursor: pointer;
 background-color: #1c753d;
 border-color:  #1c753d;
 }
+.animado
+{
+    transform:scale(0) ;
+    transition: all 0.5s;
+}

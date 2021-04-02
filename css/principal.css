@@ -237,6 +237,10 @@ padding-left: 15%;
  {
      display: none;
  }
+ .inicio1
+ {
+     height: 50vh;
+ }
 }
 @media screen and (max-width: 900px) 
 {
