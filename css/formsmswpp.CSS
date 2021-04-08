@@ -118,7 +118,7 @@ border-color:  #1c753d;
 }
 #dwd i
 {    
-   color: white ;
+   color: rgb(241, 236, 236) ;
    background-color: red;
    border-radius: 50%;  
 }
@@ -131,7 +131,7 @@ cursor: pointer;
 
 .dwdc
 {
-    height:75px ;
+    height:85px ;
     width:160px ;
     border: 5px groove blue;
     background-color:rgba(15, 15, 37,0.8);
@@ -145,12 +145,23 @@ cursor: pointer;
     
 
 }
+
 .dwdc a
 {
     margin: 10px;
-    margin-top: 15px;
+    
     font-size: 35px;
     color: red;
+}
+.dwdc div
+{margin-top: 7px;
+    align-items: center;
+    text-align: center;
+}
+.dwdc label
+{
+    font-size: 11px;
+    color: white;
 }
 .dwda
 { display: flex;
