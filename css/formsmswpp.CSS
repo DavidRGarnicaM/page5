@@ -96,3 +96,64 @@ border-color:  #1c753d;
     transform:scale(0) ;
     transition: all 0.5s;
 }
+/*
+***************************************************************************************
+*/
+#dwd
+{
+    position: fixed;
+    bottom: 35px;
+    right: 10px;
+    border-radius: 50% ;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    line-height: 50px;
+    z-index: 100;
+    border: none;
+    background-color: red ;
+    outline: none;
+    transform: scale(0);
+}
+#dwd i
+{    
+   color: white ;
+   background-color: red;
+   border-radius: 50%;  
+}
+#dwd:hover , #dwd:hover i 
+{
+cursor: pointer;
+
+
+}
+
+.dwdc
+{
+    height:75px ;
+    width:160px ;
+    border: 5px groove blue;
+    background-color:rgba(15, 15, 37,0.8);
+    position: fixed;
+    bottom: 25px;
+    right: 70px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    transform: scale(0) ;
+    
+
+}
+.dwdc a
+{
+    margin: 10px;
+    margin-top: 15px;
+    font-size: 35px;
+    color: red;
+}
+.dwda
+{ display: flex;
+    
+    align-items: center;
+    justify-content: center;
+ 
+}
