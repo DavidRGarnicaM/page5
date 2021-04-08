@@ -56,6 +56,8 @@ function mostrarscroll()
     {
         btnwpp.style.transform="scale("+0+")";
         btndwln.style.transform="scale("+0+")";
+        feolo.style.transform ="scale(0)";
+        feolo2.style.transform ="scale(0)";
     }
   
     
